@@ -1,10 +1,7 @@
 public class Body
 {
-	public static void main(String[] args)
+	public static void main(String[] args) // Просто тело. Запуск основной программы.
 	{
-		//Operation.met_calc();	
-		String str_in = "122.";		
-		System.out.println(str_in.matches("\\d+||'.'"));
-	}
-	
+		Operation.met_calc();	
+	}	
 }
