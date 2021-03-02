@@ -1,6 +1,7 @@
 public class Dev extends Operation
-{
-	public static double	execute(String[] arr)
+{	
+	@Override
+	public   double	execute(String[] arr)
 	{
 		double x;
 		double y;
